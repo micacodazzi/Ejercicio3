@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3 - Micaela Muñoz Codazzi</title>
+</head>
+<body>
+    <header>
+    <h1>Formulario de registro</h1>
+    </header>
+    <main>
+    <!-- Inicio de formulario -->
+    <form action="mailto:codazzidesign@gmail.com" method="post" enctype="text/plain">
+        <label for="nombre"> Nombre:</label>
+        <input type="text" id="nombre" required><br><br>
+        <label for="apellidos"> Apellidos:</label>
+        <input type="text" id="apellidos" required><br><br>
+        <label for="name"> Sexo:</label>
+        <input type="radio" id="hombre" value="hombre">
+        <label for="hombre">hombre</label>
+        <input type="radio" id="mujer" value="mujer">
+        <label for="mujer">mujer</label><br><br>
+        <label for="mail"> Correo:</label>
+        <input type="email" id="mail" required><br><br>
+        <input type="checkbox" name="novedades" id="novedades" checked>
+        <label for="novedades">Deseo recibir información sobre novedades y ofertas</label><br><br>
+        <input type="checkbox" name="condiciones" id="condiciones" required>
+        <label for="condiciones">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label><br><br>
+        <input type="submit" value="Enviar">
+        <!-- Fin de formulario -->
+    </form>
+    </main>
+</body>
+</html>
