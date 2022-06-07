@@ -12,7 +12,7 @@
     </header>
     <main>
     <!-- Inicio de formulario -->
-    <form action="mailto:codazzidesign@gmail.com" method="GET" enctype="text/plain">
+    <form>
         <label for="nombre"> Nombre:</label>
         <input type="text" id="nombre" required><br><br>
         <label for="apellidos"> Apellidos:</label>
@@ -28,7 +28,7 @@
         <label for="novedades">Deseo recibir información sobre novedades y ofertas</label><br><br>
         <input type="checkbox" name="condiciones" id="condiciones" required>
         <label for="condiciones">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label><br><br>
-        <input type="submit" value="Enviar">
+        <button onclick="location.href='mailto:codazzidesign@gmail.com';">Enviar</button>
         <!-- Fin de formulario -->
     </form>
     </main>
